@@ -1,0 +1,38 @@
+.bar-back {
+  height: 50px;
+  width: 300px;
+  box-shadow: 2px 1px 5px 1px rgba(0,0,0,0.12);
+  border-radius: 4px;
+  border: 1px solid #00000021;
+  background: rgb(0,189,255);
+  background: linear-gradient(90deg, rgba(0,189,255,1) 50%, rgba(235,238,238,1) 51%);
+  animation: move 1.5s linear infinite;
+  background-size: 700px;
+  position: relative;
+}
+
+@keyframes move {
+  0% {
+    background-position-x: -360px;
+  }
+
+  100% {
+    background-position-x: -50px;
+  }
+}
+
+.bar-inner {
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  top: 113px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.15) inset;
+
+}
+
+.loading-txt {
+  position: absolute;
+  top: 108px;
+}

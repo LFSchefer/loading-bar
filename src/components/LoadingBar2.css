@@ -1,0 +1,11 @@
+.loading-container {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.loading-full {
+  border-radius: 4px;
+}
