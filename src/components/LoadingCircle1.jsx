@@ -5,7 +5,7 @@ const LoadingCircle1 = () => {
 
   return (
 
-    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+    <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 
   )
 }
